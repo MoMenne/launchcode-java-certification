@@ -1,0 +1,12 @@
+i
+insert mode = i
+comman mode = esc or ctrl c
+write = :w
+quit = :q
+search = /
+last line = shift g
+page forward = ctrl f
+page back = ctrl b
+go to line = :line number
+delete line = dd
+ 
