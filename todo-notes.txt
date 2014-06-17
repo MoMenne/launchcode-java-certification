@@ -1,0 +1,24 @@
+memorize access control
+memorize array construction
+memorize methods on Java String
+which methods of String are meant to work like C and which provide high level control like Java
+
+memorize all Java keywords
+know switch statement syntax
+JVM exceptions vs. Developer Exceptions
+command line arguments are different than C
+thread vs. runnable
+chars work just like in C
+rules for variable names
+http://tv.launchcode.us/#/videos/java_strings?lesson=Java
+i++ vs. ++i
+k += 3 + ++k;  is the same as k = k + 3 + ++k;  …. remember since k is an int they are actual bits in memory
+valid operators
+int vs. Integer
+what are the rules for overriding
+Java compiler unreachable statements  while (false) { }
+Polymorphism it’s just a shell around real object inside… unless static which attached to the class
+Checklist for valid constructor of extended class
+Java Keywords
+maximum values for ints
+
