@@ -1,3 +1,20 @@
 Exception Flashcards
-i
+
+What exceptions are thrown by a developer?
+IllegalArgumentException, IllegalStateException
+
+What exceptions are thrown by the JVM?
+ClassCastException, NullPointerException, SecurityException
+
+What is the "dangling-else" problem in Java?
+For if statements that do not use braces, Java assumes that the else statement always belongs to the innermost if statement
+
+Can a class with a private Constructor be extended?
+No, the first line of any constructor must call super() and super() would not be available for a subclass of a class with a private constructor
+
+What is required for an overloaded method?
+1) same method name
+2) same return type
+3) different parameter list
+
 
