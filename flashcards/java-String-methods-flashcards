@@ -1,0 +1,55 @@
+int length()
+string length
+
+char charAt()
+ith character
+
+String substring(int i int j)
+ith through (j-1)st characters
+
+boolean contains (String sub)
+does string contain sub as a sub string
+
+boolean startsWith(String pre)
+does string start with pre
+
+boolean endsWith(String post)
+does string end with post
+
+int indexOf(String p)
+index of first occurrence of p
+
+int indexOF(String p, int i)
+index of first occurrence of p after i
+
+String concat(String t)
+this string with t appended
+
+int compareTo(String t)
+string comparison
+
+String replaceFirst(String str, String str2)
+returns a string with the first occurrence of "str" replaced by "str2"
+
+String replaceAll(String a String b)
+changing a's to b's
+
+boolean equals(String t)
+is this string's value the same as t's
+
+Character.isDigit(char a)
+determines if character is a digit
+
+String toLowerCase()
+returns string in all lowercase letters
+
+String toUpperCase()
+returns string in all uppercase letters
+
+
+String trim()
+returns a copy of the string without spaces
+
+
+length()
+returns how long a string is
