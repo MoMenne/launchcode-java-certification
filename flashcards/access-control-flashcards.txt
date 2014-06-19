@@ -1,0 +1,32 @@
+There are 3 access modifiers:
+public, protected, private
+
+There are 4 access levels:
+public, protected, default, private
+
+Classes can have only:
+public or default access
+
+A class with default access can be:
+seen only by classes within the same package
+
+A class with public access can be:
+seen by all classes from all packages
+
+Class visibility revolves around whether code in one class can:
+1) create an instance of another class
+2) extend another class
+3) access methods and variable of anoter class
+
+Classes can also be modified with:
+'final', 'abstract' and 'strictfp'
+
+A class cannot be both:
+'final' and 'abstract'
+
+A 'final' class cannot be:
+Subclassed
+
+An 'abstract' class cannot be:
+instantiated
+
