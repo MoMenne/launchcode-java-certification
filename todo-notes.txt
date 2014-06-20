@@ -11,7 +11,6 @@ thread vs. runnable
 chars work just like in C
 rules for variable names
 http://tv.launchcode.us/#/videos/java_strings?lesson=Java
-i++ vs. ++i
 k += 3 + ++k;  is the same as k = k + 3 + ++k;  …. remember since k is an int they are actual bits in memory
 valid operators
 int vs. Integer

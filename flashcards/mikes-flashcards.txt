@@ -1,0 +1,28 @@
+Which has higher operational precendence?
+. or (Object) casting
+
+Does the 'default' switch in your switch statement have to be first, last, or anywhere?
+Anywhere
+
+What class is the first argument of the compareTo method of Object?
+Object
+
+If you are catching multiple exceptions, are the exceptions allowed to be subclasses of each other?
+Yes, but the most specific exception has to be first
+
+When overriding a method, is the overriding method required to throw all exceptions of the super class method?
+No, the overriding method can choose to throw any exception it chooses
+
+Can a method override the Constructor of a super class?
+No, because constructors are not inherited
+
+How do you represent a long number in Java?
+5l
+
+How do you represent a double number in Java?
+5d
+
+How do you represent a float in Java?
+5.0
+
+
