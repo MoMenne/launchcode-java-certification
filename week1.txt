@@ -1,0 +1,92 @@
+What are the 15  methods on the String class?
+lenght, charAt, substring, contains, startsWith, endsWith, indexOf, concat, comareTo, replaceFirst, replaceAll, equals, toLowerCase, toUpperCase, trim
+
+What are the four methods that allow you find the index a String and what do they do?
+indexOf(String str)  finds index of string
+indexOf(Sting str, int start)   finds index of string after the indicated index
+lastIndexOf(String str)     finds the last index of a the given string
+lastIndexOf(String str, int start)    finds the last index after the given start
+
+What are the 7 methods of Object?
+getClass, hashCode, equals, toString, notify, notifyAll, wait
+
+What exceptions are thrown by a developer?
+Exception, IllegalArgumentException, IllegalStateException
+
+What exceptions are thrown by the JVM?
+ClassCastException, NullPointerException, SecurityException
+
+When is a class cast exception thrown?
+when an object is being represented as (aka given the type of) a class that that it cannot represent
+
+What three scenarios allow an object to be cast to a type without a ClassCastException being thrown?
+1)  The object is the exact type of the object it is being cast to
+2)  The object extends the class that it is being cast to
+3)  The object or one of its super classes implements the class that it is being cast to
+
+When does a NullPointerException get thrown?
+When a method or variables is accessed on a variable that is null
+
+What is the "dangling-else" problem and when does it occur?
+when "if statements" are used without brackets, any subsequent "else statements" are given to the innermost "if statement"
+
+What lines of code can be automatically injected into your code by the JVM? 
+import java.lang.*
+super() on the first line of a constructor
+
+What is a method override?
+When a subclass implements the same method signature as a method in one its superclasses
+typically denoted with @Override
+
+What is a method overload?
+When a class uses the same name of an existing method on that object (in the same class or on a superclass)
+
+What three conditions must be present for a method overload?
+1)  method name must already exist
+2)  overload method must have the same return type
+3)  overload method must have different arguments
+
+Who can access a method or variable denoted as "public"?
+anyone
+
+Who can access a method or variable denoted as "private"?
+only members of that class
+
+Who can access a method or variable not denoted as private, public, or protected ?
+only code with in the same package
+
+Who can acces a method or variable denoted as "protected"?
+Anyone in your class, your package, or any subclass
+
+What cannot be done when a class is marked as final?
+Class cannot be extended
+
+What cannot be done when a method is marked as final?
+method cannot be overriden... methods called from a constructor should typically be marked as final
+
+What cannot be done when a variable is marked as final?
+final variables are considered read only and are typically used as constants
+
+What is the difference between overriding a method and hiding a method?
+overriding is polymorhpic in the fact that whatever method exists on the object will be executed
+hiding is for static methods.  since static methods are not associated to the object but actually a class... the method of the class representing the object will be called
+
+What is the method signature of the method compareTo on Object?
+public boolean equals(Object anObject)
+
+How do you represent a long, a double and a float in Java?
+5l, 5d, 5.0  
+
+What is required when overriding a method with "throws" in its signature?
+Nothing, the overriding subclass is not required to throw any of the exceptions of the super class
+
+What are two facts to know about extending a class with constructors?
+1)  the superclass constructor cannot be private (the subclass has to call super())
+2)  you cannot override constructors
+
+What are three facts to know about handling exceptions?
+1)  only checked exceptions (of class extending Exception) require handling
+2)  handling can be done via a throws in the method signature or a try catch block
+3)  you can catch your subclasses of your exceptions as long as the most specific subclassed exception is first
+
+
