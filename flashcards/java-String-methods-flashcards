@@ -22,6 +22,10 @@ index of first occurrence of p
 int indexOF(String p, int i)
 index of first occurrence of p after i
 
+int lastIndexOf(String str)
+
+int lastIndexOf(String str, int startingFrom)
+
 String concat(String t)
 this string with t appended
 
