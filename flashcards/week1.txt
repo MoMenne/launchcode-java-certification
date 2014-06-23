@@ -72,7 +72,7 @@ overriding is polymorhpic in the fact that whatever method exists on the object 
 hiding is for static methods.  since static methods are not associated to the object but actually a class... the method of the class representing the object will be called
 
 What is the method signature of the method compareTo on Object?
-public boolean equals(Object anObject)
+public int compareTo(Object object)
 
 How do you represent a long, a double and a float in Java?
 5l, 5d, 5.0  
