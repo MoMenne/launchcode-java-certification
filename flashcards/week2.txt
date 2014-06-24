@@ -1,0 +1,29 @@
+What are the possible instantiations for an array?
+
+How do i++ and ++i behave in a for loop?
+
+What are the order of operations between / and *i and () and .?
+
+What is the hierarchy of the Exception object tree?
+
+What are the collections provided by the Java JDK?
+
+Valid for loops and what they do?
+
+Try Catch Finally order?
+
+Initialized vs. Uninitialized Statics?
+
+What types are can only be changed inside the method in which they are passed?
+
+Name all of the valid operators.
+
+|| vs |
+
+Examples of valid switch statements
+
+What are the examples of array intialization?
+
+Give an example of a piece of unreachable code.
+
+
