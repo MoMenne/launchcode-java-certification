@@ -1,29 +1,67 @@
 What are the possible instantiations for an array?
+int[ ] a[ ] = new int [5][4] ;
+int a[ ][ ] = new int [5][4] ;
+int[ ] a[ ] = new int [4][ ] ;
+int[ ][ ] a = new int [5][4] ;
 
 How do i++ and ++i behave in a for loop?
+Exactly the same
 
-What are the order of operations between / and *i and () and .?
+What are the order of operations between / and * and () and .?
+Please Excuse My Dear Aunt Sally
+Parenthesis Exponents Multiple Divide Add Subtract
 
 What is the hierarchy of the Exception object tree?
+Throwable -> Exception -> RuntimeException
 
 What are the collections provided by the Java JDK?
+List, Queue, Set, Map, Vector
 
 Valid for loops and what they do?
 
 Try Catch Finally order?
+Must be Try-Catch-Finally
+Can be Try-Finally if the Exception throws the unhandled exception
 
 Initialized vs. Uninitialized Statics?
+Finals HAVE to get an initial value
+Integers need an initial value
+static ints default to zero
+ints need to be initialized
 
 What types are can only be changed inside the method in which they are passed?
+Only attributes of objects.  
+Replacing the object contained by a variable is not returned
+primities are not returned
 
 Name all of the valid operators.
+=
++ 
+-
+*
+/
+%
+++
+--
+!
+==
+>=
+<=
+!=
+>
+<
+&&
+||
+-   unary bitwise
+<<  signed left shift
+>>  signed right shift
+>>> unsigned right shift
+&   bitwise AND
+^   bitwise exclusive OR 
+|   bitwise inclusive OR
+
 
 || vs |
 
-Examples of valid switch statements
-
-What are the examples of array intialization?
-
-Give an example of a piece of unreachable code.
 
 
